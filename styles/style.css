@@ -159,6 +159,13 @@
     color: #0D1321;
     padding: 12px 20px;
 }
+
+.anchor-btn{
+    text-decoration: none;
+    color: #0D1321;
+
+
+}
 .button-spacial{
     font-weight: 600;
     font-size: 14px;
