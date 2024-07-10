@@ -11,22 +11,17 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 /* shared style */
 .text-center {
     text-align: center;
 }
 
-/* .title-style{
-    font-weight: bold;
-    font-size: 20px;
-    color: #0D1321;
-}
-
-.description-style{
+.description-style {
     font-weight: normal;
     font-size: 15px;
     color: #0D1321;
-} */
+}
 
 /* header styles */
 .header {
@@ -157,6 +152,7 @@
     font-weight: 600;
     font-size: 14px;
     color: #0D1321;
+    padding: 12px 20px;
 }
 
 /* inspiration sec-style */
@@ -165,21 +161,21 @@
 }
 
 .inspiration-title {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 30px;
     color: #0D1321;
 }
 
 .inspiration-details {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 15px;
     color: #0D1321;
     margin: 24px 144px 48px 144px;
 }
 
 .video {
     margin-top: 50px;
-    margin-bottom: 150px;
+
     margin-left: 300px;
     margin-right: 300px;
     border: 30px solid whitesmoke;
@@ -187,15 +183,77 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
+
 /* target skills section design */
-.skills-header{
-    margin-top: 150px;
-    margin-bottom: px;
+.target-skills {
+    margin-top: 100px;
 }
 
-.skills-title{
+.skills-title {
     margin-bottom: 24px;
 }
+
+.skills-description {
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.skills-title {
+    font-weight: 800;
+    font-size: 30px;
+    color: #0D1321;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin: 45px 150px 111px;
+    
+
+
+}
+
+.image {
+    margin-bottom: 24px;
+}
+
+.skill-title {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 8px;
+
+
+}
+
+.skill-description {
+    margin-bottom: 24px;
+    
+}
+
+.lern {
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #0D1321;
+}
+
+.skill-bg1 {
+    background-color: rgba(255, 76, 30, 0.08);
+}
+
+.skill-bg2 {
+    background-color: rgba(0, 6, 232, 0.04);
+}
+
+.skill-bg3 {
+    background-color: rgba(255, 223, 0, 0.04);
+}
+
+.skill {
+    padding: 40px;
+    border-radius: 16px;
+}
+
 
 /* .submit-btn{
     font-weight: 500;
